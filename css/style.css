@@ -1687,6 +1687,7 @@ body.ie ._ibg img {
 .running__form-title {
   font-size: 24px;
   font-weight: 600;
+  display: inline-block;
   margin: 0 0 20px 0;
 }
 
