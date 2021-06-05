@@ -1859,10 +1859,6 @@ body.ie ._ibg img {
   max-width: 100%;
 }
 
-.content-wats__reserv-low-resolution {
-  display: none;
-}
-
 .content-wats__image {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 25%;
@@ -2796,17 +2792,6 @@ body.ie ._ibg img {
 
   .content-wats__swiper {
     display: none;
-  }
-
-  .content-wats__reserv-low-resolution {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
