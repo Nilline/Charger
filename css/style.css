@@ -2952,6 +2952,10 @@ body.ie ._ibg img {
     margin-bottom: 30px;
   }
 
+  .watts__btn {
+    max-width: none;
+  }
+
   .content-wats__image {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 33.333%;
@@ -2960,6 +2964,19 @@ body.ie ._ibg img {
 
   .tops {
     padding: 30px 0;
+  }
+
+  .tops__column_status {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
+  .tops__column_status-image {
+    margin: 0;
   }
 }
 
