@@ -1375,7 +1375,6 @@ body.ie ._ibg img {
 .bussiness {
   background-color: #f0f0f0;
   padding: 160px 0 85px 0;
-  min-height: 615px;
 }
 
 .bussiness__row {
@@ -1586,12 +1585,14 @@ body.ie ._ibg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 -15px;
 }
 
 .running__column {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
+  padding: 0 15px;
 }
 
 .running__column_absolute {
@@ -2376,6 +2377,10 @@ body.ie ._ibg img {
   .quantity__button:hover::before,
   .quantity__button:hover::after {
     background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .bussiness__column {
+    min-height: 378px;
   }
 }
 
