@@ -1375,6 +1375,7 @@ body.ie ._ibg img {
 .bussiness {
   background-color: #f0f0f0;
   padding: 160px 0 85px 0;
+  min-height: 615px;
 }
 
 .bussiness__row {
