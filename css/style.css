@@ -1417,15 +1417,15 @@ body.ie ._ibg img {
   -webkit-transform: translate(0px, 25px);
       -ms-transform: translate(0px, 25px);
           transform: translate(0px, 25px);
-  -webkit-transition: all 1s ease 0s;
-  -o-transition: all 1s ease 0s;
-  transition: all 1s ease 0s;
+  -webkit-transition: all 1.5s ease 0s;
+  -o-transition: all 1.5s ease 0s;
+  transition: all 1.5s ease 0s;
 }
 
 .bussines-anim-2 {
-  -webkit-transition: all 1s ease 0.3s;
-  -o-transition: all 1s ease 0.3s;
-  transition: all 1s ease 0.3s;
+  -webkit-transition: all 1.5s ease 0.3s;
+  -o-transition: all 1.5s ease 0.3s;
+  transition: all 1.5s ease 0.3s;
 }
 
 .bussines-anim-1._active,
@@ -2644,11 +2644,14 @@ body.ie ._ibg img {
     -webkit-transform: translate(-100px, 0);
         -ms-transform: translate(-100px, 0);
             transform: translate(-100px, 0);
-    -webkit-transition: opacity, -webkit-transform 2s ease 0s;
-    transition: opacity, -webkit-transform 2s ease 0s;
-    -o-transition: opacity, transform 2s ease 0s;
-    transition: opacity, transform 2s ease 0s;
-    transition: opacity, transform 2s ease 0s, -webkit-transform 2s ease 0s;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    -o-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-duration: 2s;
+         -o-transition-duration: 2s;
+            transition-duration: 2s;
   }
 
   .easy__row .easy__content {
@@ -2803,35 +2806,60 @@ body.ie ._ibg img {
   }
 
   .header__column_l .header__main-text {
-    -webkit-transition: opacity, -webkit-transform 2s ease 0s;
-    transition: opacity, -webkit-transform 2s ease 0s;
-    -o-transition: opacity, transform 2s ease 0s;
-    transition: opacity, transform 2s ease 0s;
-    transition: opacity, transform 2s ease 0s, -webkit-transform 2s ease 0s;
+    opacity: 0;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    -o-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-duration: 2s;
+         -o-transition-duration: 2s;
+            transition-duration: 2s;
   }
 
   .header__column_l .header__subtitle {
-    -webkit-transition: opacity, -webkit-transform 2s ease 0.2s;
-    transition: opacity, -webkit-transform 2s ease 0.2s;
-    -o-transition: opacity, transform 2s ease 0.2s;
-    transition: opacity, transform 2s ease 0.2s;
-    transition: opacity, transform 2s ease 0.2s, -webkit-transform 2s ease 0.2s;
+    opacity: 0;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    -o-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-duration: 2s;
+         -o-transition-duration: 2s;
+            transition-duration: 2s;
+    -webkit-transition-delay: 0.2s;
+         -o-transition-delay: 0.2s;
+            transition-delay: 0.2s;
   }
 
   .header__column_l .header__apple {
-    -webkit-transition: opacity, -webkit-transform 2s ease 0.4s;
-    transition: opacity, -webkit-transform 2s ease 0.4s;
-    -o-transition: opacity, transform 2s ease 0.4s;
-    transition: opacity, transform 2s ease 0.4s;
-    transition: opacity, transform 2s ease 0.4s, -webkit-transform 2s ease 0.4s;
+    opacity: 0;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    -o-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-duration: 2s;
+         -o-transition-duration: 2s;
+            transition-duration: 2s;
+    -webkit-transition-delay: 0.4s;
+         -o-transition-delay: 0.4s;
+            transition-delay: 0.4s;
   }
 
   .header__column_l .header__form_block {
-    -webkit-transition: opacity, -webkit-transform 2s ease 0.6s;
-    transition: opacity, -webkit-transform 2s ease 0.6s;
-    -o-transition: opacity, transform 2s ease 0.6s;
-    transition: opacity, transform 2s ease 0.6s;
-    transition: opacity, transform 2s ease 0.6s, -webkit-transform 2s ease 0.6s;
+    opacity: 0;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    -o-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-duration: 2s;
+         -o-transition-duration: 2s;
+            transition-duration: 2s;
+    -webkit-transition-delay: 0.6s;
+         -o-transition-delay: 0.6s;
+            transition-delay: 0.6s;
   }
 
   .running__row .running__list li {
